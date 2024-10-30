@@ -1,1 +1,1 @@
-# QuizGame
+# Python Projects
