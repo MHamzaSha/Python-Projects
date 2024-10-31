@@ -10,4 +10,24 @@ else:
     print("Please type a number next time")
     quit()
 rndm_num=random.randint(0,top_of_range)
-print(rndm_num)
+guesses =0
+
+while True :
+    guesses += 1
+    user_guess = input("Make a guess: ")
+    if user_guess.isdigit():
+        user_guess = int(user_guess)
+    else:
+        print("Type number next time.")
+        continue
+    
+    if user_guess == rndm_num:
+        print("You got it!")
+        break
+    else:
+        if user_guess>rndm_num:
+            print("You were above the number!")
+        else:
+            ("You were below the number!")
+guesses = str(guesses)
+print ("you guess the number in "+ guesses+" try")
