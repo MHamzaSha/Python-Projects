@@ -24,10 +24,9 @@ while True :
     if user_guess == rndm_num:
         print("You got it!")
         break
-    else:
-        if user_guess>rndm_num:
+    elif user_guess>rndm_num:
             print("You were above the number!")
-        else:
-            ("You were below the number!")
+    else:
+        ("You were below the number!")
 guesses = str(guesses)
 print ("you guess the number in "+ guesses+" try")
