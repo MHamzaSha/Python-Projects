@@ -1,2 +1,2 @@
-# Python Projects(Easy0
+# Python Projects(Easy)
 
